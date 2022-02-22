@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(to right, #4daf54, #3d8880);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: roboto , sans-serif;
+}
+.card{
+	width: 300px;
+	height: 450px;
+	background-color: #242628;
+	border-radius: 12px;
+	text-align: center;
+	overflow: hidden;
+}
+.card .avt{
+	width: 120px;
+	height: 120px;
+	border: 4px solid #f2726a;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 40px auto;
+	transition: 0.5s;
+}
+.card .avt img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-position: center;
+
+}
+.card h2{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+.card p{
+	font-size: 16px;
+	color: #f2726a;
+	text-align: center;
+	margin-top: 10px;
+}
+.card .font{
+	margin-top: 30px;
+}
+.card .font a{
+	margin-right: 40px;
+	font-size: 20px;
+}
+.card .font a:last-child{
+	margin-right: 0px;
+	
+}
+.card .font a i{
+	color: white;
+	display: inline-block;
+}
+.card .font a:hover i{
+	color: #f2726a;
+	transition: 0.3s;
+}
+button{
+	margin-top: 45px;
+	background-color: transparent;
+	width: 140px;
+	height: 25px;
+	border: none;
+}
+button a{
+	display: block;
+	line-height: 25px;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid #f2726a;
+	border-radius: 8px;
+	font-size: 13px;
+	transition: 0.3s;
+
+}
+button:hover a {
+	background-color:#f2726a;
+}
+.card .avt:hover {
+	width: 100%;
+	height: 100%;
+	border-radius: unset;
+	margin: 0px auto ;
+	border: unset;
+}
