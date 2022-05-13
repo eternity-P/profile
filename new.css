@@ -76,14 +76,13 @@ button{
 	margin-top: 45px;
 	background-color: transparent;
 	width: 140px;
-	height: 25px;
 	border: none;
 }
 button a{
 	display: block;
-	line-height: 25px;
+	/* line-height: 25px; */
 	color: white;
-	padding: 10px 20px;
+	padding: 15px 20px;
 	border: 1px solid #fa6a5f;
 	border-radius: 8px;
 	font-size: 13px;
