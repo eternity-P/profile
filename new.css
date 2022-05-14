@@ -20,7 +20,7 @@ body{
 }
 .card{
 	width: 300px;
-	min-height: 450px;
+	height: 450px;
 	background-color: #191a1b;
 	border-radius: 12px;
 	text-align: center;
@@ -80,7 +80,6 @@ button{
 }
 button a{
 	display: block;
-	/* line-height: 25px; */
 	color: white;
 	padding: 15px 20px;
 	border: 1px solid #fa6a5f;
